@@ -1,0 +1,89 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0 1px 3px -2px black;
+    background-color: #f3f3f3;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    color: #213547;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar li a:hover {
+    color: #ff027c;
+}
+
+/* Subnav */
+
+.subnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(100deg, #ea91bc, #e1ffea22 100%);
+}
+
+.separador li a {
+    text-decoration: none;
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar el relleno predeterminado de la lista */
+    margin: 0; /* Eliminar el margen predeterminado de la lista */
+}
+
+.separador li {
+    display: inline-block; /* Mostrar elementos de la lista en línea */
+    margin-right: 10px; /* Espacio entre elementos de la lista */
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f3f3f3;
+    width: 100%;
+    box-shadow: 0 1px 3px -2px black;
+    margin-top: auto; /* Empuja el footer al final de la página */
+}
+
+.foot h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}

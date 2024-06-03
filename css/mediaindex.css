@@ -12,6 +12,7 @@
 
     .navbar {
         order: 2; /* Cambia el orden del navbar */
+        margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
     }
 
     .text {

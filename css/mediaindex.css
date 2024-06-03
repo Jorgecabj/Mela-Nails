@@ -6,13 +6,19 @@
     }
 
     .left p {
-        flex-direction: column;
-        text-align: center;
+        max-width: 100%;
+        font-weight: bold;
     }
 
-    .right {
-        display: none;
+    .right img {
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 45px;
+        height: 300px;
+        margin-left: -35px; /* ajusta este valor según lo necesites */
     }
+    
 
     /* Ocultar el navbar en dispositivos móviles */
     .navbar {

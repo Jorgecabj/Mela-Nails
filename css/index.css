@@ -30,6 +30,18 @@ header {
     gap: 50px;
 }
 
+.navbar.show {
+    display: block;
+    position: fixed;
+    top: 60px; /* Ajusta la posición según tu diseño */
+    left: 20px; /* Ajusta la posición según tu diseño */
+    background-color: #fff; /* Color de fondo del menú desplegable */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9998; /* Asegúrate de que esté por encima del resto del contenido */
+}
+
+
 .navbar li {
     list-style: none;
 }

@@ -19,60 +19,31 @@
         margin-left: -35px; /* ajusta este valor según lo necesites */
     }
     
-
-    /* Ocultar el navbar en dispositivos móviles */
-    .navbar {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: -250px;
-        /* Empieza fuera de la pantalla */
-        width: 250px;
-        /* Ancho del menú */
-        height: 100vh;
-        /* Altura de la pantalla */
-        background-color: rgba(255, 255, 255, 0.8);
-        /* Blanco semi-transparente */
-        padding-top: 60px;
-        /* Espacio para el logo */
-        transition: left 0.3s ease;
-        backdrop-filter: blur(5px);
-        /* Desenfoque del fondo */
-    }
-
-    .navbar.show {
-        left: 0;
-        /* Muestra el menú desplegable */
-        background-color: #e08bb4;
-    }
-
-    .menu-btn {
-        display: block;
-        position: fixed;
-        top: 20px;
-        left: 20px;
-        background-color: #e08bb4;
-        color: rgb(0 0 0);
-        border: 2px solid black;
-        padding: 10px;
-        border-radius: 50%;
-        z-index: 9999;
-    }
-
-    /* Estilos para las letras dentro del menú desplegable */
-    .navbar.show li {
-        font-weight: bold;
-        margin: 20px 0;
-        text-align: center;
-        font-size: 24px;
-        color: black;
-    }
 }
 
 /* Estilos para tablets */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .logo img {
         width: 70px;
+    }
+
+    .text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left p {
+        max-width: 100%;
+        font-weight: bold;
+    }
+
+    .right img {
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 45px;
+        height: 300px;
+        margin-left: -35px; /* ajusta este valor según lo necesites */
     }
 }
 

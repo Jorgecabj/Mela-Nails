@@ -21,17 +21,14 @@
     }
 
     .left p {
+        font-size: 25px;
         max-width: 100%;
         font-weight: bold;
     }
 
     .right img {
-        position: relative;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 45px;
-        height: 250px;
-        margin-left: -70px; /* ajusta este valor según lo necesites */
+        max-width: 300px;
+        height: auto; /* Mantiene la proporción de la imagen */
     }
     
 }
@@ -53,11 +50,8 @@
     }
 
     .right img {
-        position: relative;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 45px;
-        height: 250px;
-        margin-left: -70px; /* ajusta este valor según lo necesites */
+        max-width: 350px;
+        height: 350px;
+        margin-left: -10px; /* ajusta este valor según lo necesites */
     }
 }

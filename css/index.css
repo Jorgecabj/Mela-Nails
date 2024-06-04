@@ -123,11 +123,15 @@ header {
     background-color: #213547;
 }
 
+.right {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente si es necesario */
+    height: 100%;            /* Asegúrate de que el contenedor tenga altura suficiente */
+}
+
 .right img{
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    height: 102%;
+    width: 400px;
 }
 
 

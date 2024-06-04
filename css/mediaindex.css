@@ -30,7 +30,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: 45px;
-        height: 300px;
+        height: 250px;
         margin-left: -70px; /* ajusta este valor según lo necesites */
     }
     
@@ -57,7 +57,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: 45px;
-        height: 300px;
+        height: 250px;
         margin-left: -70px; /* ajusta este valor según lo necesites */
     }
 }

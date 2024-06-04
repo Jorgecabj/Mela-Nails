@@ -61,14 +61,3 @@
         margin-left: -35px; /* ajusta este valor según lo necesites */
     }
 }
-
-/* Estilos para computadoras */
-@media screen and (min-width: 1024px) {
-    header {
-        padding: 20px 100px;
-    }
-
-    .navbar li {
-        margin-left: 40px;
-    }
-}
